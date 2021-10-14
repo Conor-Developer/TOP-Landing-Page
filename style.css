@@ -61,6 +61,8 @@ ul {
     justify-content: space-between;
     gap: 30px;
     padding: 0;
+    font-family: Roboto, sans-serif;
+    color: #E5E7EB;
 }
 
 .first-container1 {
@@ -69,9 +71,43 @@ ul {
     margin-right: 20px;
 }
 
+
 .first {
     display: flex;
     padding-top: 0;
     justify-content: space-between;
     padding: 50px 200px;
 }
+
+.upper-middle-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    font-family: Roboto, sans-serif;
+
+}
+
+.second-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cars {
+    border: #3992F6 solid;
+    border-radius: 8px;
+    padding: 0;
+    margin: 0; 
+}
+
+.cars-nest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    line-height: 0;
+    font-family: Roboto, sans-serif;
+}
+
