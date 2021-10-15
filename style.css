@@ -5,7 +5,8 @@ body {
 }
 
 .header,
-.first {
+.first,
+.footer {
 background: #1F2937;
 }
 
@@ -35,7 +36,6 @@ button {
     border: none;
     font-weight: bold;
     font-size: 18px;
-
 }
 
 
@@ -48,7 +48,8 @@ ul {
     list-style-type: none;
 }
 
-.header {
+.header,
+.footer {
     display: flex;
     justify-content: space-between;
     padding: 0 200px;
@@ -111,3 +112,59 @@ ul {
     font-family: Roboto, sans-serif;
 }
 
+.third-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #E5E7EB;
+    color: #1F2937;
+    margin-top: 80px;
+    font-size: 36px;
+    padding: 100px 350px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.blue-box {
+    background: #3992F6;
+    margin: 80px 200px;
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+}
+
+.button2 {
+    border: #F9FAF8 solid;
+
+}
+
+.call-to-action {
+    font-size: 18px;
+    align-self: space-between;
+}
+
+h4 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.footer {
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: Roboto, sans-serif;
+    
+}
